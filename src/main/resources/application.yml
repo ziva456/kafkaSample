@@ -1,0 +1,17 @@
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: 192.168.0.4:9092
+      group-id: foo
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+    producer:
+      group-id: foo
+      bootstrap-servers: 192.168.0.4:9092
+      key-serializer: org.apache.kafka.common.serialization.StringSerializer
+      value-serializer: org.apache.kafka.common.serialization.StringSerializer
+
+server:
+  port: 8080
+  context-path: /kafka
