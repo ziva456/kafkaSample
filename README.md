@@ -2,6 +2,7 @@
 kafka
 
 # kafka Docker 설정
+ ```yml
 version: '3'
 
 services:
@@ -35,3 +36,4 @@ services:
     environment:
       KAFKA_BROKERCONNECT: 192.168.0.4:9092
       #KAFKA_BROKERCONNECT: 127.0.0.1:9092
+```
