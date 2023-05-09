@@ -1,5 +1,5 @@
 # kafkaSample
-kafka
+kafka구동 확인
 
 # kafka Docker 설정
  ```yml
