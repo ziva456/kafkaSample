@@ -1,7 +1,8 @@
-# kafkaSample
-kafka구동 확인
+## kafkaSample
+- kafka구동 확인
 
-# kafka Docker 설정
+## kafka Docker 설정
+- wurstmeister 이미지 사용
  ```yml
 version: '3'
 
